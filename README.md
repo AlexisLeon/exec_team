@@ -31,6 +31,7 @@ Invoke by name (`ask the gtm agent to...`) or just ask — Claude routes to the 
 | `/kickoff` | Once | Founding interview; writes strategy, team, voice, baseline numbers |
 | `/standup` | **Every 48 hours** | Score the last cycle yes/no, set the next self-chosen commitment. The core ritual. |
 | `/today` | Every morning | Cofounder's read: the goal, three things, one thing not to do |
+| `/brief` | Every morning, and after any batch of updates | Files what changed, reconciles `open-items.md`, re-ranks the next three items; saved to `company/briefings/` |
 | `/weekly` | Monday | Scorecard updated, commitments checked, GTM + CMO sections, one goal per person |
 | `/call` | After any customer conversation | Files the notes verbatim, extracts the next step and what it changes |
 | `/decide` | Before anything non-obvious | Options, recommendation, logged with a falsifiable expectation and a review date |
@@ -61,6 +62,7 @@ company/
   team.md         who owns what         (owned by cofounder)
   customers/      raw calls and notes — the most valuable folder here
   decisions/      dated log, append-only, never edited
+  briefings/      one file per /brief run; the newest is the cutoff for the next
 playbooks/
   outbound.md     the founder-led outbound motion  (owned by gtm)
 .claude/
