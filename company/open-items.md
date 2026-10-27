@@ -27,7 +27,7 @@ date in the past gets raised at the next standup.
 | # | Item | Owner | By | Why it matters |
 |---|---|---|---|---|
 | 7 | **Scope out anterior aesthetic cases.** Written policy + a script for declining them. | Alex | **2026-11-05** | 6 botched veneers; the material's known weak spot and the least forgiving audience |
-| 8 | **Set the quality tripwire threshold.** Proposed: stop signing clinics when loss rate exceeds 15% of potential monthly revenue. Currently ~37%. | Alex | **2026-10-31** | Chosen now while hypothetical, not during a crisis |
+| 8 | ~~**Set the quality tripwire threshold.**~~ **Set 2026-10-27** at 15% by `decisions/2026-10-27-founding-strategy.md` §6 (brief 2026-10-27 10:49). **Replaced by:** measure October's loss rate (remakes, botched units, cases sent elsewhere ÷ potential revenue). The ~37% is one month's estimate, and the tripwire can't be applied without a measured number. Whether it blocks signings now → `/decide`. | Alex | **2026-10-31** | Chosen now while hypothetical, not during a crisis |
 | 9 | **Start the longevity log.** Every printed unit placed: date, tooth, type, clinic, photo. Backfill the 1-year 3-unit posterior bridge. | Alex | **2026-10-31** | In 18 months this is the only clinical evidence base in the market. Nobody else is building one |
 | 10 | **Ask Rosario why she actually buys** — price, case margin, or speed. | Alex | **2026-10-31** | The whole message depends on which; we are currently guessing |
 | 11 | **Get the X-ray lab facts:** name, number of orthodontists served, studies/month, price per model, who signs. | Alex | **2026-10-29** | Channel that may be worth more than several direct clinics |
