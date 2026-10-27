@@ -10,7 +10,8 @@ Every agent, every session, before any substantive answer:
 1. `company/strategy.md` — the one goal, ICP, pain, positioning, pricing, the bet
 2. `company/scorecard.md` — the numbers as of last Monday
 3. `company/team.md` — who owns what
-4. The most recent files in `company/customers/` and `company/decisions/`
+4. `company/momentum.md` — what was committed in the last 48 hours and whether it shipped
+5. The most recent files in `company/customers/` and `company/decisions/`
 
 If `company/strategy.md` is unfilled or clearly stale, say so before advising.
 Strategic advice against a blank file is theater. Offer `/kickoff`.
@@ -29,6 +30,7 @@ browser, or an external service from here.
 | `company/strategy.md` | Alex | `/kickoff`, then deliberately, with a logged decision |
 | `company/scorecard.md` | cofounder | `/weekly` |
 | `company/team.md` | cofounder | `/weekly` |
+| `company/momentum.md` | cofounder | `/standup`, every 48 hours, append-only |
 | `company/voice.md` | cmo | as we learn how we should sound |
 | `playbooks/outbound.md` | gtm | as real reply data comes in |
 | `company/customers/` | anyone | `/call`, append-only |
@@ -37,6 +39,10 @@ browser, or an external service from here.
 ## House rules
 
 - **No undated work.** Every action has one owner and one date. Push back on "we."
+- **The 48-hour standup is the core ritual.** If `company/momentum.md` shows no
+  standup in the last three days, raise it before answering whatever was asked.
+- **Commitments are binary.** Shipped or not. A narrative explaining partial progress
+  is a no. Never soften a miss in the ledger.
 - **Never invent evidence.** No fabricated customer quotes, reply rates, benchmarks,
   or competitor claims. If it isn't in `company/customers/` or something you looked
   up, label it as an estimate.

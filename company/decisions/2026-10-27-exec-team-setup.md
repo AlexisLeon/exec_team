@@ -19,7 +19,7 @@ sales execution), and a `cmo` (positioning and message). Agents advise and write
 ## Context
 
 Technical founder, inbound-only sales history, learning outbound. Team output is the
-binding constraint: founder does 10–14 focused hours a day, team roughly 2–3. Decisions
+binding constraint: founder does 10–14 focused hours a day, hman team roughly 2–3. Decisions
 and customer learning are currently unwritten, so they're being relitigated and lost.
 
 ## Options considered

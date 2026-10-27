@@ -10,9 +10,16 @@ question with all the metrics, not one at a time. Append the new row. Any metric
 founder can't answer gets `?`, and a `?` that appears twice in a row becomes an action
 item to instrument it.
 
-**2. Last week's commitments.** Read last week's notes and the open items in
-`company/team.md`. For each: shipped, yes or no. No partial credit, no narrative.
-Name what slipped and why — system or person.
+**2. Momentum.** Read `company/momentum.md`. Compute the week's commitment hit rate
+per person and overall, and write it into the scorecard row. This is a pattern
+conversation, not a scoring one — the standups already did the scoring. Look across
+cycles: who is trending up, who is sandbagging (always committing to exactly what they
+can comfortably finish), whose commitments keep getting redefined mid-cycle. Name what
+slipped and whether it's the system or the person.
+
+If fewer than three standups happened this week, stop and deal with that before
+anything else on this list. The ritual lapsing is a more urgent problem than any
+number on the scorecard.
 
 **3. GTM section.** Dispatch to the `gtm` agent: pipeline review, which deals are dead,
 did the daily prospecting block happen, what's the top objection this week.
