@@ -3,7 +3,7 @@
 Who does what, and how we work. This file exists because the biggest operational
 constraint right now is team output, not ideas.
 
-**Last updated:** —
+**Last updated:** 2026-10-27
 
 ## The problem we're solving here
 
@@ -14,9 +14,15 @@ not a character problem — until the system is fixed and the gap persists.
 
 ## People
 
-| Name | Role | Owns (outcome, not activity) | Weekly commitment | Reports progress how |
+| Name | Role | Owns (outcome, not activity) | Status | File |
 |---|---|---|---|---|
-|  |  |  |  |  |
+| Alex | Founder | Clinic #2, arm's length | 10–14 focused h/day | — |
+| Andrés León | Cofounder | **Undefined — the problem** | ? | [persons/andres_leon.md](persons/andres_leon.md) |
+| Claudia García | Sales | Qualified conversations booked (proposed) | ? | [persons/claudia_garcia.md](persons/claudia_garcia.md) |
+| Laura García | Characterization technician | Aesthetic quality of finished units | ? | [persons/laura_garcia.md](persons/laura_garcia.md) |
+
+**Outsourced and unguarded — treat as team:** digital design partners (caused the
+9,000 MXN prosthesis loss), zirconia milling partner. No reliable e.max partner.
 
 ## Operating cadence
 
@@ -41,4 +47,13 @@ Don't merge them — the moment the standup becomes a discussion, it stops worki
 
 ## Open issues with the team
 
-<!-- Name them. The cofounder agent will push on these every week. -->
+1. **Andrés is not producing and owns no defined outcome.** Most expensive unaddressed
+   item in the company — he holds equity that should be compensating someone doing the
+   work. Fix the system first (named outcome, self-set 48h commitments, logged misses),
+   give it three weeks, then make it a cofounder conversation. See his file.
+2. **Laura may be the most important person here.** The strategy's differentiation is
+   quality; she produces it. Open question: can she fix anterior aesthetics? That
+   decides whether a whole product line reopens.
+3. **Claudia's scope is undefined.** Proposed: she researches and builds the target
+   list while Alex does the first 20 conversations himself.
+4. **Outsourced design has no QC checkpoint.** Already cost 9,000 MXN.

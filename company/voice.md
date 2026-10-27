@@ -1,45 +1,179 @@
 # Voice
 
-How we write. Applies to outbound email, the site, docs, support replies, and anything
-an agent drafts for external eyes.
+How we write, and the scripts we reuse.
 
-**Last updated:** —
+**Reference points Alex named:** *Stripe's optimism, Revolut's execution.* Warm and
+plainly confident about what's possible; fast, precise and unsentimental about getting
+it done.
+
+**How this file is meant to be used.** Alex systematizes interactions rather than
+improvising them, so this is a script library, not a style essay. Each category below
+has the structure, the reason it works, and a slot for a real example. **Fill the
+slots over time with things you actually sent that worked** — the agents will pattern
+match on your real examples far more than on any rule written here.
+
+Anything in `<!-- -->` is an empty slot.
+
+---
 
 ## Defaults
 
-- **Short sentences.** If a sentence has two ideas, it's two sentences.
-- **Concrete over abstract.** Numbers, names, timeframes. "3 days" not "dramatically faster."
-- **No hype adjectives.** Banned: revolutionary, cutting-edge, seamless, game-changing,
-  robust, leverage (as a verb), unlock, empower, best-in-class, world-class, AI-powered.
-- **Lead with the thing, not the framing.** Delete the first sentence of most drafts.
-- **Technical honesty.** We say what doesn't work yet. It's the reason people trust us.
-- **No fake urgency, no fake scarcity, no fake personalization.** A merge tag is not research.
+- **Short sentences.** Two ideas means two sentences.
+- **Concrete over abstract.** "Five days" not "dramatically faster." "Half the cost of
+  zirconia" not "cost-effective."
+- **No hype adjectives.** Banned: revolutionary, cutting-edge, seamless, innovative,
+  game-changing, robust, world-class, best-in-class, state-of-the-art.
+- **Sell the economics, not the chemistry.** A dentist cannot evaluate a resin. They
+  can evaluate margin per case and a turnaround date. This is the single most
+  important rule in this file — it is the reason the product has been hard to sell.
+- **Honesty is the product.** Futura's failure was marking cases delivered that weren't.
+  Our entire differentiation is saying true things about where a case is, early.
+- **Never claim permanence beyond what the material's clearance supports.**
+  See `company/materials.md`.
 
-## Outbound email specifically
+---
 
-- Under 90 words. Under 60 is better.
-- One ask. One. The ask is usually 15 minutes, not a demo.
-- Subject line is lowercase and looks like a human typed it in a hurry.
-- The first line is about them, and must be something you could only know by looking.
-- No "Hope this finds you well." No "I'll be brief" (just be brief).
-- Signature: name, one line, link. No banners.
+# External — dentist facing
 
-## What we sound like
+## 1. Cold first touch
 
-<!-- Paste 2–3 real paragraphs you've written that you'd be happy to see again.
-     Agents will pattern-match on these more than on the rules above. -->
+**Structure:** one line proving you looked at them · one line naming the pain in their
+words · one line with the economic result and a number · one small ask.
+Under 90 words. One ask. No attachments.
+
+**Why it works:** they get pitched by equipment vendors constantly. Specificity about
+*their* practice is the only thing that separates you from the vendor who sold them a
+broken scanner.
+
+<!-- EXAMPLE: -->
+
+## 2. Warm intro follow-up
+
+**Structure:** name the person who connected you in the first five words · one line on
+why they thought it was worth it · the ask, smaller than you think.
+
+**Why it works:** the referrer's name is doing the trust work. Don't bury it, and
+don't waste it on a big ask.
+
+<!-- EXAMPLE: -->
+
+## 3. First meeting — opening and discovery
+
+**Structure:** ask before you pitch. The qualifying question is
+**"what share of your cases are crowns, bridges, aligners?"** — it tells you whether
+they can hit the minimum without asking about money.
+
+Then: what's your current lab, what goes wrong, what did it cost you last time.
+
+**Why it works:** case mix predicts consumption better than chair count. And letting
+them describe a bad lab experience does your selling for you.
+
+<!-- EXAMPLE: -->
+
+## 4. Explaining printed restorations
+
+**Structure:** lead with **their margin per case**. Half the cost of zirconia, same
+permanence, days not weeks. Then the clinical evidence you actually have. Then, only
+if asked, the material.
+
+**Why it works:** two dentists have bought this, both for case margin. Nobody has
+bought it for the chemistry. Stop leading with the chemistry.
+
+<!-- EXAMPLE: -->
+
+## 5. Price objection
+
+<!-- EXAMPLE: -->
+
+## 6. Proactive status update on a case
+
+**Structure:** where the case is · the date it lands · anything they need to do.
+Send it **before they ask.** Every time.
+
+**Why it works:** this is the cheapest moat available. A dentist told Alex's friend
+they liked working with him specifically because he told them the truth about delays.
+Costs nothing, and the incumbents don't do it.
+
+<!-- EXAMPLE: -->
+
+## 7. Bad news — a delay
+
+**Structure:** the delay, in the first sentence · the new date · what you're doing
+about it · no excuses, no padding.
+
+**Why it works:** the evidence says dentists forgive delays they hear about early and
+remember labs that hid them. Tell them before they find out.
+
+<!-- EXAMPLE: -->
+
+## 8. Bad news — our error, a remake
+
+**Structure:** we got it wrong · what we're doing · when they'll have it · what we
+changed so it doesn't recur. No defensiveness, no blaming a vendor — the dentist
+cannot tell the difference between us and our vendor, and shouldn't have to.
+
+<!-- EXAMPLE: -->
+
+## 9. Declining a case we shouldn't take
+
+**Structure:** we're not the right lab for this one, here's why, here's what we'd
+suggest instead.
+
+**Why it works:** turning down work you'd botch is how the reliability reputation gets
+built, and it costs almost nothing because those cases were already losses.
+
+<!-- EXAMPLE: -->
+
+## 10. Asking for a referral
+
+<!-- EXAMPLE: -->
+
+## 11. Re-engaging a quiet or churned clinic
+
+<!-- EXAMPLE: -->
+
+---
+
+# Internal — team facing
+
+## 12. The 48-hour standup message
+
+**Structure:** what I committed to · shipped yes/no · what I'm committing to next ·
+blocked on whom.
+
+<!-- EXAMPLE: -->
+
+## 13. Corrective feedback
+
+**Structure:** the specific thing that happened · the effect it had · what you need
+instead · agreement on the next commitment. One behaviour, not a character assessment.
+
+<!-- EXAMPLE: -->
+
+## 14. Setting a deadline
+
+**Structure:** the outcome · the date · who verifies it. If you can't name the
+verifier, the commitment isn't checkable and needs rewriting.
+
+<!-- EXAMPLE: -->
+
+---
+
+## Words we use
+
+| Concept | We say | We never say |
+|---|---|---|
+| The restoration | <!-- --> | <!-- --> |
+| The customer | <!-- --> | <!-- --> |
+| Turnaround | <!-- --> | <!-- --> |
+
+## Longer samples
+
+Paste two or three things you've written and would be happy to see again.
+Any register — a WhatsApp, a proposal, a post.
 
 ### Sample 1
 <!-- paste -->
 
 ### Sample 2
 <!-- paste -->
-
-## Words we use for our own things
-
-<!-- Product names, the exact noun for the customer, the exact noun for the unit of work.
-     Consistency here is worth more than cleverness. -->
-
-| Concept | We say | We never say |
-|---|---|---|
-|  |  |  |
